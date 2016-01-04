@@ -1,1 +1,45 @@
+body { 
+       background-image: url(../img/background.png);
+       background-color: white; 
+       margin: 10px;
+       padding: 0;
+} 
+header { 
+       background-color: #A9A9A9; 
+} 
+
+#photos_profil
+{
+    background-image: url(../img/profil.png);
+}
+
+ header h1 { 
+       text-decoration: underline; 
+       padding: 12px; 
+} 
  
+li { 
+       list-style-type: none; 
+} 
+
+ h3 { 
+       color: black; 
+ } 
+
+footer { 
+       background-color: #A9A9A9; 
+       font-style: italic; 
+       padding: 12px; 
+} 
+.conteneur {
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+}
+#main_block {
+  margin: 10px;
+   columns: 3;
+   column-gap: 3em;
+   column-width: 100px;
+   column-count: 3 100px;
+}
