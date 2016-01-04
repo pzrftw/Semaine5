@@ -1,45 +1,97 @@
-body { 
-       background-image: url(../img/background.png);
-       background-color: white; 
-       margin: 10px;
-       padding: 0;
-} 
-header { 
-       background-color: #A9A9A9; 
-} 
-
-#photos_profil
-{
-    background-image: url(../img/profil.png);
+body {
+    background-image: url("img/background2.png");
+    background-repeat: repeat;
+    padding: 0px;
+    margin: 0px;
 }
 
- header h1 { 
-       text-decoration: underline; 
-       padding: 12px; 
-} 
- 
-li { 
-       list-style-type: none; 
-} 
-
- h3 { 
-       color: black; 
- } 
-
-footer { 
-       background-color: #A9A9A9; 
-       font-style: italic; 
-       padding: 12px; 
-} 
-.conteneur {
+header {
+    background-image: url("img/background.png");
+    background-repeat: repeat;
     width: 100%;
-    margin: 15px;
-    padding: 10px;
 }
-#main_block {
-  margin: 10px;
-   columns: 3;
-   column-gap: 3em;
-   column-width: 100px;
-   column-count: 3 100px;
+header h1 {
+    text-decoration: underline;
+    padding: 12px;
+}
+ul {
+    padding-left: 5px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h3 {
+    color: black;
+}
+
+footer {
+    position:absolute;
+    background-image: url("img/background.png");
+    background-repeat: repeat;
+    font-style: italic;
+    width: 100%;
+    bottom: 0px;
+}
+.conteneur {
+    width : 100%;
+    max-width : 960px;
+    padding : 10px;
+    margin : 15px;
+}
+#photos_profil {
+    display: inline-block;
+    width: 61%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#photos_profil img{
+    width: 24%;
+    display: inline-block;
+}
+#entete {
+    margin-right: 1px;
+    display: inline-block;
+}
+#entete h2{
+   margin-left: 12px;
+}
+
+main {
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+#colonne1 {
+    vertical-align: top;
+    width: 28%;
+    display: inline-block;
+    margin-left: 50px;
+}        
+#colonne2 {
+    vertical-align: top;
+    width: 26%;
+    display: inline-block;
+    margin-left: 20px;
+}
+#colonne3 {
+    vertical-align: top;
+    width: 26%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+footer p{
+    text-align: center;
+    width:30%;
+    display:inline-block;
+    vertical-align:top;
+    margin-left:30px;
+    margin-top: 50px;
+}
+iframe{
+    display:inline-block;
+    vertical-align:top;
+    margin-left: 25px;
 }
